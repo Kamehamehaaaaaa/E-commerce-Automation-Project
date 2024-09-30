@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Sushant/IdeaProjects/THT_QA_Automation/src/test/java/tests/SearchPageTests.java">
+        <classes>
+            <class name="tests.SearchPageTests">
+                <methods>
+                    <include name="testSearchFunctionality"/>
+                    <include name="testProductFiltering"/>
+                    <include name="testSortingFunctionality"/>
+                    <include name="testProductDetailsPage"/>
+                    <include name="testItemAddedToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
